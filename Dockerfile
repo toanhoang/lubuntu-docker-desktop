@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install Basic Packages
 RUN apt update
+RUN apt-get dist-upgrade -y
 RUN apt-get install -y lubuntu-desktop xrdp dbus-x11 uuid-runtime xauth xautolock  xorgxrdp xprintidle 
 
 RUN cp /etc/X11/xrdp/xorg.conf /etc/X11 && \
