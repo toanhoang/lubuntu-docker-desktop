@@ -1,11 +1,6 @@
 # Lubuntu-Docker-Desktop
 Run Lubuntu Desktop in Docker container.  RDP only.
 
-![image](img/1.png)
-
-![image](img/2.png)
-
-
 ## Feature
 + Base on Ubuntu LTS 24.04 (Noble Numbat).
 + LXQT Desktop Environment.
