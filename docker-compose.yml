@@ -1,0 +1,12 @@
+services:
+  lubuntu-desktop:
+    image: lubuntu-desktop:latest
+    container_name: lubuntu-desktop
+    shm_size: 1gb
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse:/dev/fuse
+    ports:
+      - 3389:3389
+    restart: unless-stopped
