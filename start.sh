@@ -30,8 +30,7 @@ fi
 echo [*] Starting XRDP ...
 xrdp-sesman
 xrdp
-
-echo [*] OK!
+echo [*] XRDP started successfully!
 
 # Loop to keep everything alive
 while true; do sleep 10000000; done
